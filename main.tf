@@ -17,8 +17,6 @@
 #
 #     test-training-anaconda
 #
-#  access_key = "AKIAJ6GTEFZ6LXBVZK3A"
-#  secret_key = "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"
 
 variable aws_access_key {}
 
@@ -36,7 +34,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   ami                    = "ami-65b69116"
-  count                  = 1
+  count                  = 2
   instance_type          = "t2.micro"
   subnet_id              = "subnet-1a85e442"
   vpc_security_group_ids = ["sg-4dab302b"]
