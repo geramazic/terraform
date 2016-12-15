@@ -13,12 +13,6 @@
 #
 #     ami-65b69116
 #
-# Your Identity is:
-#
-#     test-training-anaconda
-#
-#  access_key = "AKIAJ6GTEFZ6LXBVZK3A"
-#  secret_key = "U8tfokvB67f9eCWGNLfdLtxGG9EbiqODnR3oXeXK"
 
 variable aws_access_key {}
 
